@@ -10,6 +10,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
-  icon: 'smile'
+  icon: 'shield'
   color: 'blue'
 
