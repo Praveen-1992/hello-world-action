@@ -5,7 +5,7 @@ FROM alpine:3.18
 COPY entrypoint.sh /entrypoint.sh
 
 # Make the entrypoint script executable
-RUN chmod +x /app/entrypoint.sh
+RUN chmod +x entrypoint.sh
 
 # Set the entrypoint
 ENTRYPOINT ["./entrypoint.sh"]
