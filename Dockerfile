@@ -5,7 +5,7 @@ FROM alpine:3.18
 WORKDIR /app
 
 # Copy the entrypoint script into the container
-COPY entrypoint.sh .
+COPY entrypoint.sh /entrypoint.sh
 
 # Make the entrypoint script executable
 RUN chmod +x entrypoint.sh

@@ -1,3 +1,3 @@
 # hello-world-action
 
-##Prints Helloword
+## Prints Helloword
