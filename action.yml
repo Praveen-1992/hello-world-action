@@ -1,5 +1,9 @@
-name: 'Hello World Action_Smart1892'
-description: 'A simple action that prints Hello World'
+name: Hello World Action_Praveen334455
+description: A simple action that prints Hello World
+author: Praveen
+branding:
+  icon: 'shield'
+  color: 'blue'
 runs:
   using: 'docker'
   image: 'Dockerfile'
