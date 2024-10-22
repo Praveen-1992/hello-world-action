@@ -2,9 +2,9 @@ name: 'Hello World ActionSmart334455'
 description: 'A simple action that prints Hello World'
 author: 'Praveen'
 inputs:
-  who-to-greet:
+  who-to-greet: 
     description: 'The name of the person to greet'
-    required: false
+    required: true
     default: 'World'
 runs:
   using: 'docker'
