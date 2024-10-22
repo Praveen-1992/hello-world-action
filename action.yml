@@ -1,0 +1,5 @@
+name: 'Hello World Action_Smart1892'
+description: 'A simple action that prints Hello World'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
