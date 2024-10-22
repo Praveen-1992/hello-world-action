@@ -1,2 +1,4 @@
-#!/bin/sh
-echo "Hello, World!"
+#!/bin/sh -l
+
+echo "Hello $1"
+

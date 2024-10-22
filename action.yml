@@ -1,9 +1,15 @@
-name: Hello World Action_Praveen334455
-description: A simple action that prints Hello World
-author: Praveen
-branding:
-  icon: shield
-  color: blue
+name: 'Hello World ActionSmart334455'
+description: 'A simple action that prints Hello World'
+author: 'Praveen'
+inputs:
+  who-to-greet:
+    description: 'The name of the person to greet'
+    required: false
+    default: 'World'
 runs:
-  using: docker
-  image: Dockerfile
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'smile'
+  color: 'blue'
+
